@@ -29,6 +29,6 @@ Plug 'othree/vim-autocomplpop'
 Plug 'vim-scripts/L9'
 call plug#end()
 
-let g:ariline_theme='raven'
+let g:airline_theme='raven'
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
