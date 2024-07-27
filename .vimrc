@@ -27,8 +27,12 @@ Plug 'tpope/vim-sleuth'
 Plug 'raimondi/delimitMate'
 Plug 'othree/vim-autocomplpop'
 Plug 'vim-scripts/L9'
+Plug 'junegunn/fzf'
 call plug#end()
 
 let g:airline_theme='raven'
+let g:astro_typescript='enable'
 filetype plugin on
 set omnifunc=syntaxcomplete#Complete
+
+nnoremap <silent> <Leader>f :FZF<CR>
