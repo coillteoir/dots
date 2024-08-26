@@ -8,10 +8,6 @@ if [[ -z "${SOURCED}" ]]; then
     source ~/.zshrc
 fi
 
-if [[ -n "$name" ]]; then
-    PS1="{$name}-> "
-fi
-
 export EDITOR=vim
 
 alias k="kubectl"
